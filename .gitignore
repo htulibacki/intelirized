@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Kotlin
+.kotlin/
+
+# IntelliJ Platform Gradle Plugin
+.intellijPlatform/
+
+# Local configuration
+local.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code local settings
+.claude/settings.local.json
+.claude/scheduled_tasks.lock

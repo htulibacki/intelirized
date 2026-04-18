@@ -1,0 +1,31 @@
+<idea-plugin>
+  <id>com.intelirized.intelirized</id>
+  <name>Intelirized</name>
+  <vendor email="h.tulibacki@gmail.com">Hubert Tulibacki</vendor>
+
+  <description><![CDATA[
+    <h2>Intelirized</h2>
+    <p>
+      An <b>Islands</b>-style theme for JetBrains IDEs based on the classic
+      <a href="https://ethanschoonover.com/solarized/">Solarized Light</a> palette by Ethan Schoonover.
+    </p>
+    <p>
+      Tuned for readability — body text contrast 9.16:1 (WCAG AAA),
+      comments at 3.16:1 to recede without disappearing.
+      Built for the new Islands UI introduced in 2025.12.
+    </p>
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>0.1.0</h3>
+    <ul>
+      <li>Initial release — Solarized Light Islands variant.</li>
+    </ul>
+  ]]></change-notes>
+
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="intelirized-light" path="/themes/Intelirized.theme.json"/>
+  </extensions>
+</idea-plugin>
