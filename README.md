@@ -4,6 +4,16 @@
 
 A **light** **Islands**-style theme for JetBrains IDEs based on the classic [Solarized Light](https://ethanschoonover.com/solarized/) palette by Ethan Schoonover.
 
+## Screenshots
+
+| PHP | TypeScript |
+| --- | --- |
+| ![PHP controller](screenshots/screenshot-01.jpg) | ![TypeScript class](screenshots/screenshot-02.jpg) |
+
+| Blade / HTML | Settings dialog |
+| --- | --- |
+| ![Blade template](screenshots/screenshot-03.jpg) | ![Settings dialog](screenshots/screenshot-04.jpg) |
+
 Tuned for readability:
 - Body text contrast **9.16:1** (WCAG AAA)
 - Comments at **3.16:1** — recede without disappearing
